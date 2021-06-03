@@ -101,7 +101,7 @@ const deleteTask = async (id) => {
         <Tasks tasks={tasks} onDelete={deleteTask} onToggle={toggleReminder} />
       ) : (
         "No tasks to show"
-      )}
+      )} 
       <Route path='about' component={About}/>
         <Footer/>
         
